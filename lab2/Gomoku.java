@@ -9,7 +9,6 @@ import cs251.lab2.*;
 public class Gomoku implements GomokuModel {
 
     boolean playerOneTurn = true;
-    boolean hasWon = false;
     String boardString;
     Square[][] Board = new Square [NUM_HSQUARES][NUM_VSQUARES];    
 
@@ -70,10 +69,6 @@ public class Gomoku implements GomokuModel {
     }
 
     public void setComputerPlayer(java.lang.String opponent) {
-        boolean penis = true;
-        if(penis){
-        hasWon = true;
-        }
 
     }
 
